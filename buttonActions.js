@@ -6,3 +6,6 @@
     document.location.href("LoginPage.html")
   }
   
+  function GoToHomePage() {
+    document.location.href("HomePage.html")
+  }
