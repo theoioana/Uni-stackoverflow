@@ -3,76 +3,47 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../static/css/asheuh-framework.css" type="text/css">
-    <link rel="shortcut icon" href="../../static/images/H-logo.ico">
-    <link rel="stylesheet" href="../../static/css/style.css" type="text/css">
-    <script src="../../static/js/app.js"></script>
-    <title>Stackoverflow | Lite</title>
+    <link rel="stylesheet" href="InternalPagesStyles.css" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script rel="js" src="buttonActions.js"></script>
+    <title>MyQuestions</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="myNavbar">
-            <div>
-                <ul class="myNav">
-                    <div class="my-container">
-                        <li>
-                            <a style="font-size: 22px; color: gold;" href="home.html"><span class="smallerFont">Stackoverflow</span>LITE<sup><small>2018</small></sup></a>
-                        </li>
-                        <li class="right">
-                            <a href="signin.html">
-                                <img class="image" style="border-radius: 50%; width: 30px; height: 30px;" src="../../static/images/logout-rounded-filled.png">
-                            </a>
-                        </li>
-                        <li class="right">
-                            <a href="userprofile.html">
-                                <img class="image" style="border-radius: 50%; width: 30px; height: 30px;" src="../../static/images/asheuh.jpeg">
-                            </a>
-                        </li>
-                    </div>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div include-html="../../templates/mains/usermenu.html"></div>
-    <script>
-        includeHTML();
-    </script>
-    <div class="content">
+    <div class="w3-bar w3-red">
+    <a class="w3-bar-item w3-button" onclick="GoToHomePage()" href="#">Home</a>
+    <a class="w3-bar-item w3-button" href="#">Tags</a>
+    <a class="w3-bar-item w3-button" href="#">Users</a>
+    <a class="w3-bar-item w3-button" href="#">Achievements</a>
+    <a class="w3-bar-item w3-button" onclick="GoToAccountPage()" href="#">Account</a>
+    <a class="w3-bar-item w3-button" onclick="GoToMyQuestionsPage()" href="#">My Questions</a>
+    <a class="w3-bar-item w3-button"  onclick="GoToContactPage()" href="#">Contact</a>
+    <a class="w3-bar-item w3-button" onclick="GoToLoginPage()" href="#">Sign Out</a>
+    </div>
+    
+     <div class="content">
         <div class="asheuh-container">
             <div class="my-container-fluid">
                 <div>
                     <div class="grid-6">
                         <div>
-                            <img style="width: 200px; border-radius: 12em;" src="../../static/images/asheuh.jpeg">
+                            <img style="width: 200px; height:200px; padding-left: 10px;" src="yo.jpg"/>
                         </div>
                         <div class="span-col-5">
-                            <h1 style="margin-top: 1em">Student X</h1>
-                            <p><small><i>Nairobi, Kenya</i></small></p>
-                            <p>Phone: <i>+(254) 700 546 241</i></p> 
-                            <div class="social-icons">
-                                <a href="#"><i style="color:blue;" class="me fab fa-facebook-square"></i></a>
-                                <a href="#"><i style="color:#ffc838" class="me fab fa-instagram"></i></a>
-                                <a href="#"><i style="color:#3498DB;" class="me fab fa-twitter-square"></i></a>
-                                <a href="#"><i style="color:#21618C;" class="me fab fa-linkedin-in"></i></a>
-                                <a href="#"><i style="color:red;" class="me fab fa-google-plus-square"></i></a>
-                                <a href="#"><i style="color:black;" class="me fab fa-github-square"></i></a>
-
-                            </div>
+                            <h1 style="margin-top: 1em">Theodora-Ioana Danciulescu</h1>
+                            <p><small><i>Craiova, Romania</i></small></p>
+                            <p>Phone: <i>+40792929292</i></p> 
                         </div>
                     </div>
-                    <div class="my-details">
+                    <div class="card">
                         <div class="grid-4">
                             <div>
-                                <h4>Organization: <i>Bashtech</i> <a style="color: blue;" href="https://asheuh.github.io">Bashtech</a></h4>
-                                <h4>Email: <i>mboyabryan49@gmail.com</i></h4>
-                                <h4>Interesting thing about me: <i>I'm smart</i></h4>
-                                <h4>Gender: <i> Male</i></h4>
-                                <h4>Birthday: <i>Not sure, i'm a time traveller</i></h4>
+                                <h4>Department: <i>UCV</i>
+                                <h4>Email: <i>theodoradanciulescu@gmail.com</i></h4>
+                                <h4>Birthday: <i>30/01/1998</i></h4>
                             </div>
-                            <div class="card" style="padding: 10px; text-align:center;">
+                            <div class="card" style="padding: 10px; text-align:left;">
                                 <h3><i class="fas fa-chart-bar"></i> Statistics</h3>
                                 <hr>
                                 <div class="grid-4">
@@ -105,7 +76,7 @@
                                 <hr>
                                 <div class="quiz">
                                     <ul class="qa">
-                                        <p class="asheuh">Asked 20mins ago by Brian Mboya</p>
+                                        <p class="asheuh">Asked 20mins ago by Theodora Danciulescu</p>
                                         <li class="dropdown-btn">
                                             <a href="#">Jquery search working on my desktop device and also on chrome mobile emulator but not working in real device</a>
                                         </li>
@@ -155,7 +126,7 @@
                                 </div>
                                 <div class="quiz">
                                     <ul class="qa">
-                                        <p class="asheuh">Asked 20mins ago by Brian Mboya</p>
+                                        <p class="asheuh">Asked 20mins ago by Theodora Danciulescu</p>
                                         <li class="dropdown-btn">
                                             <a href="#">Django: Image is stored twice</a>
                                         </li>
@@ -193,7 +164,7 @@
                                 </div>
                                 <div class="quiz">
                                     <ul class="qa">
-                                        <p class="asheuh">Asked 20mins ago by Brian Mboya</p>
+                                        <p class="asheuh">Asked 20mins ago by Theodora Danciulescu</p>
                                         <li class="dropdown-btn">
                                             <a href="#">Restoring deleted files and folders in linux</a>
                                         </li>
@@ -238,7 +209,7 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
-                            <p><i>Darknet rating</i></p>
+                            <p><i>Codeforces rating</i></p>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
@@ -250,6 +221,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
