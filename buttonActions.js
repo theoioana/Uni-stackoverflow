@@ -17,3 +17,11 @@
   function GoToAccountPage() {
     document.location.href("Account.html")
   }
+  
+  function GoToContactPage() {
+    document.location.href("ContactPage.html")
+  }
+  
+  function GoToQuestionPage() {
+    document.location.href("QuestionPage.html")
+  }

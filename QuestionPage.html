@@ -3,21 +3,32 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="InternalPagesStyles.css" type="text/css">
-    <script src="../../static/js/app.js"></script>
-    <title>Stackoverflow | Lite</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>QuestionPage</title>
 </head>
 
 <body>
+    
+    <div class="w3-bar w3-red">
+    <a class="w3-bar-item w3-button" onclick="GoToHomePage()" href="#">Home</a>
+    <a class="w3-bar-item w3-button" href="#">Tags</a>
+    <a class="w3-bar-item w3-button" href="#">Users</a>
+    <a class="w3-bar-item w3-button" href="#">Achievements</a>
+    <a class="w3-bar-item w3-button" onclick="GoToAccountPage()" href="#">Account</a>
+    <a class="w3-bar-item w3-button" onclick="GoToMyQuestionsPage()" href="#">My Questions</a>
+    <a class="w3-bar-item w3-button"  onclick="GoToContactPage()" href="#">Contact</a>
+    <a class="w3-bar-item w3-button" onclick="GoToLoginPage()" href="#">Sign Out</a>
+    </div>
+    
     <div class="content grid-3">
         <div class="span-col-2">
-            <h1>Question Details</h1>
             <hr>
             <div class="quiz">
                 <ul class="qa">
-                    <p class="asheuh">Asked 20mins ago by Brian Mboya</p>
+                    <p class="asheuh">Asked 20mins ago by Theodora Danciulescu</p>
                     <li class="no_dropdown">
                         <h3>Jquery search working on my desktop device and also on chrome mobile emulator but not working in real device</h3>
                     </li>
@@ -31,39 +42,33 @@
                                     on a web device and also on chrome mobile emulator (in dev console) but it is not 
                                     working on the real device (Tested on both Android and IOS)
                                 </p>
+                                 <p>Tags: <span class="w3-tag">web</span> <span class="w3-tag">site</span> <span class="w3-tag">informatics</span></p>
                                 <h4>Answers</h4>
                                 <div class="first span-col-3">
                                     <div class="">
                                         <hr>
                                         <div class="panel pale-green">
-                                            <p>By Brian Mboya 20mins ago</p>
+                                            <p>By Theodora Danciulescu 20mins ago</p>
                                             <p>London is the most populous city in the United Kingdom, with a metropolitan area of over 9 million inhabitants.</p>
-                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="../../static/images/tick-icon-44.png"></a>
-                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="../../static/images/x.png"></a>
+                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="tick-icon-44.png"></a>
+                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="x.png"></a>
                                         </div>
                                         <div class="panel pale-green">
-                                            <p>By Stacy Mboya 20mins ago</p>
+                                            <p>By Joe Doe 20mins ago</p>
                                             <p>London is the most populous city in the United Kingdom, with a metropolitan area of over 9 million inhabitants.</p>
-                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="../../static/images/tick-icon-44.png"></a>
-                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="../../static/images/x.png"></a>
+                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="tick-icon-44.png"></a>
+                                            <a href="#"><img class="image" style="border-radius: 50%; width: 20px; height: 20px;" src="x.png"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="grid-3">
-                                    <div class="summary">
-                                        <a onclick="document.getElementById('id01').style.display='block'" class="btn btn-success" href="#">Post Answer</a>
-                                        <div id="id01" class="modal">
-                                            <form class="modal-content animate" action="/action_page.php">
-                                                <div class="scontainer">
-                                                    <label style="float:left" for="psw"><h2>Your Answer</h2></label>
-                                                    <textarea id="subject" name="subject" placeholder="Type your answer here..." style="height:200px"></textarea>
-                                                    <a href="#" class="btn btn-primary" type="submit">Submit</a>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="summary">
-                                        <a href="#" class="btn btn-success">add vote</a>
+                                    <div class="container">
+                                      <form action="/action_page.php">
+                 
+                                        <textarea name="subject" placeholder="Write your answer..." style="width:500px; height:100px; padding-bottom:30px; margin-top:50px;"></textarea>
+                                        <input type="submit" class="btn btn-success"  style="background-color:#f44336; border-color: #f44336; margin-top:30px;" value="Submit your answer">
+                                        
+                                      </form>
                                     </div>
                                 </div>
                             </div>
