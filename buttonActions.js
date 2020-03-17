@@ -25,3 +25,8 @@
   function GoToQuestionPage() {
     document.location.href("QuestionPage.html")
   }
+  
+  function GoToResultsPage() {
+    document.location.href("ResultsPage.html")
+  }
+  
