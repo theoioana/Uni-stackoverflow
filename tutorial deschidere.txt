@@ -1,0 +1,12 @@
+Salut, 
+
+Acest folder contine tot proiectul (StackOverflow), baza de date (StackOverflowDatabase) si diagrama bazei de date. 
+
+Pentru a deschide proiectul este nevoie de visual studio 2019. 
+Baza de date este de tip localdb, o puteti deschide punand-o in directory-ul unde se afla si celelalte baze de date, si anume in C:\Users\{nume_utilizator}. Dupa aceea este nevoie sa folositi comanda Update-Database in Package Manager Console (Tot din Visual studio, dupa ce ati deschis proiectul) Va duceti in bara de sus la Tools ---> NuGeT Package Manager --->Package Manager Console.
+
+Mai jos va aparea o linie de comanda de unde veti executa comanda Update-Database.
+Pentru a vedea baza de date mergeti in View --> Sql Server Object Package Explorer si o cautati. 
+
+
+
