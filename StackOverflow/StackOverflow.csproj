@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StackOverflow.AppilcationLogic\StackOverflow.AppilcationLogic.csproj" />
+    <ProjectReference Include="..\StackOverflow.DataAccess\StackOverflow.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

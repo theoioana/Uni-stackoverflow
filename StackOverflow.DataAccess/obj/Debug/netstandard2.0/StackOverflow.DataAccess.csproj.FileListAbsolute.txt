@@ -1,0 +1,12 @@
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\bin\Debug\netstandard2.0\StackOverflow.DataAccess.deps.json
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\bin\Debug\netstandard2.0\StackOverflow.DataAccess.dll
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\bin\Debug\netstandard2.0\StackOverflow.DataAccess.pdb
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\bin\Debug\netstandard2.0\StackOverflow.AppilcationLogic.dll
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\bin\Debug\netstandard2.0\StackOverflow.AppilcationLogic.pdb
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\obj\Debug\netstandard2.0\StackOverflow.DataAccess.csprojAssemblyReference.cache
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\obj\Debug\netstandard2.0\StackOverflow.DataAccess.csproj.CoreCompileInputs.cache
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\obj\Debug\netstandard2.0\StackOverflow.DataAccess.AssemblyInfoInputs.cache
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\obj\Debug\netstandard2.0\StackOverflow.DataAccess.AssemblyInfo.cs
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\obj\Debug\netstandard2.0\StackOverflow.DataAccess.csproj.CopyComplete
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\obj\Debug\netstandard2.0\StackOverflow.DataAccess.dll
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.DataAccess\obj\Debug\netstandard2.0\StackOverflow.DataAccess.pdb

@@ -1,0 +1,8 @@
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\bin\Debug\netstandard2.0\StackOverflow.AppilcationLogic.deps.json
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\bin\Debug\netstandard2.0\StackOverflow.AppilcationLogic.dll
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\bin\Debug\netstandard2.0\StackOverflow.AppilcationLogic.pdb
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\obj\Debug\netstandard2.0\StackOverflow.AppilcationLogic.csproj.CoreCompileInputs.cache
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\obj\Debug\netstandard2.0\StackOverflow.AppilcationLogic.AssemblyInfoInputs.cache
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\obj\Debug\netstandard2.0\StackOverflow.AppilcationLogic.AssemblyInfo.cs
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\obj\Debug\netstandard2.0\StackOverflow.AppilcationLogic.dll
+D:\lucru\WAD\my_stackoverflow\pres1_frontend\StackOverflow.AppilcationLogic\obj\Debug\netstandard2.0\StackOverflow.AppilcationLogic.pdb

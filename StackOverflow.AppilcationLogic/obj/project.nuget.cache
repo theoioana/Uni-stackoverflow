@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qo4WzBAPRI8qFAVjCjZKgh987mRp8JB2DB279TPpkfnDpu+OwMHeYfQplLDD6buebl4I3FsbCdLJoNmg+l+1cQ==",
+  "success": true,
+  "projectFilePath": "D:\\lucru\\WAD\\my_stackoverflow\\pres1_frontend\\StackOverflow.AppilcationLogic\\StackOverflow.AppilcationLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\theod\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\theod\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
